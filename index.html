@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript">
+        function goTo (url) {
+            location.href = "./recipes/"+url+".html";
+        };
+    </script>
+</head>
+<body>
+<header>
+    <div class="banner">
+        <p><Strong>Peter's Recipes</Strong><br> <em>Lab 2 | Intro to Web Dev</em></p>
+    </div>
+</header>
+<main>
+    <div class="introParagraph">
+    <article>
+        <p>
+            Peter's Delicious Recipes is a delightful collection
+            of culinary creations that are sure to tantalize your
+            taste buds. From simple and scrumptious midday meals
+            to inviting and irresistible dishes.
+            Peter's recipes are a perfect blend of inventiveness
+            and craveable flavors. Whether you're looking for easy
+            party food ideas or delectable treats, Peter's Food
+            Adventures will leave you with a full belly and a
+            happy heart.
+        </p>
+    </article>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h3>Savory Spinach and Feta Stuffed Chicken Breasts</h3>
+            <p><em>This recipe offers a simple yet flavorful way to
+                prepare stuffed chicken breasts, combining the
+                richness of feta cheese with the freshness of
+                spinach to create a satisfying main course.</em></p>
+            <p><strong>Time: 30 minutes </strong></p>
+            <img src="./img/spinach.jpeg"/>
+            <div class="buttonContainer">
+                <button onclick="goTo('spinach')">COOK!</button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <h3>Caramelized Onion and Goat Cheese Tartlets</h3>
+            <p><em>This recipe yields delightful Caramelized Onion
+                and Goat Cheese Tartlets, featuring the sweet,
+                savory flavors of caramelized onions paired with
+                creamy goat cheese on a crispy puff pastry base.</em></p>
+            <p><strong>Time: 1 hour and 30 minutes </strong></p>
+            <img src="./img/tartlets.jpeg"/>
+            <div class="buttonContainer">
+                <button onclick="goTo('tartlets')">COOK!</button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <h3>Spicy Mango and Black Bean Quinoa Salad</h3>
+            <p><em>This Spicy Mango and Black Bean Quinoa Salad
+                is a vibrant and satisfying dish that combines
+                the sweetness of mango with the earthy flavor of
+                black beans and the nuttiness of quinoa.
+                The chipotle-lime dressing adds a zesty and spicy
+                kick to the salad, making it a perfect side dish
+                or light meal.</em></p>
+            <p><strong>Time: 20 minutes </strong></p>
+            <img src="./img/quinoa.jpeg"/>
+            <div class="buttonContainer">
+                <button onclick="goTo('quinoa')">COOK!</button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <h3>Decadent Dark Chocolate Raspberry Brownies</h3>
+            <p><em>These Decadent Dark Chocolate Raspberry Brownies
+                are a delightful combination of rich, fudgy chocolate
+                and bursts of sweet, tart raspberries, making them a
+                perfect indulgence for any occasion.</em></p>
+            <p><strong>Time: 1 hour</strong></p>
+           <img src="./img/brownies.jpeg"/>
+            <div class="buttonContainer">
+                <button onclick="goTo('brownies')">COOK!</button>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="banner">
+    <p>
+        © 2024 Javasmithy
+    </p>
+</footer>
+</body>
+</html>
